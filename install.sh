@@ -3,7 +3,7 @@
 #get the essentials
 sudo apt update
 sudo apt -y upgrade
-sudo apt install -y git zsh curl
+sudo apt install -y git zsh curl unzip
 
 #git and link dotfiles
 cd ~
