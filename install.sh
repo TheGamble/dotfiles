@@ -19,4 +19,4 @@ ln -s .dotfiles/.zshrc .zshrc
 curl https://raw.githubusercontent.com/scopatz/nanorc/master/install.sh | sh
 
 #change shell
-sudo chsh -s $(which zsh)) $USER
+sudo chsh -s $(which zsh) $USER
