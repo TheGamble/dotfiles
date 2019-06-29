@@ -15,5 +15,8 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 rm .zshrc
 ln -s .dotfiles/.zshrc .zshrc
 
+#nano highlighting
+curl https://raw.githubusercontent.com/scopatz/nanorc/master/install.sh | sh
+
 #change shell
 sudo chsh -s $(which zsh)) $USER
