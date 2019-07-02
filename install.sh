@@ -18,5 +18,8 @@ ln -s .dotfiles/.zshrc .zshrc
 #nano highlighting
 curl https://raw.githubusercontent.com/scopatz/nanorc/master/install.sh | sh
 
+#Make Landscape install script executable
+chmod +x .dotfiles/landscape/install-landscape.sh
+
 #change shell
 sudo chsh -s $(which zsh) $USER
