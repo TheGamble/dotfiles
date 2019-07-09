@@ -3,7 +3,7 @@
 #get the essentials
 sudo apt update
 sudo apt -y upgrade
-sudo apt install -y git zsh curl unzip
+sudo apt install -y git zsh curl unzip fail2ban
 
 #git and link dotfiles
 cd ~
